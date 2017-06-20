@@ -1,0 +1,75 @@
+\documentclass[twoside,11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage[subnum]{cases}
+\usepackage{array}
+\graphicspath{{pictures/}}
+\usepackage{float}
+\usepackage[pass]{geometry}	\usepackage{charter}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{charter}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{breqn}
+\usepackage{verbatim}
+\usepackage{pdfpages}
+%For bibliography
+\usepackage[numbers]{natbib}
+\usepackage{notoccite}
+\usepackage{hyperref}
+
+\newgeometry{margin=3cm}
+\pagestyle{fancy}
+\setlength{\headheight}{20pt}
+\fancyhead[L]{\textsc{Master thesis}}
+\renewcommand{\footrulewidth}{1pt} %forcer l'affichage de la ligne horizontale pour le pied de page%
+\fancyfoot[R]{Page \thepage}
+\fancyfoot[C]{}
+\fancyfoot[L]{\textsc{Measurements of liners acoustic properties}}
+
+\begin{document}
+
+%-------------------------------------------------------------------------
+%first page
+\input{sections/firstpage} 
+%-------------------------------------------------------------------------
+%Acknowledgements
+\pagestyle{empty}
+\setlength{\parskip}{5pt}
+\input{sections/acknowledgement} 
+
+%-------------------------------------------------------------------------
+%Contents
+\pagestyle{fancy}
+\setcounter{page}{1}
+\tableofcontents
+\clearpage
+
+%-------------------------------------------------------------------------
+%Sections
+\setlength{\parskip}{0pt}
+\setlength\parindent{0pt}
+\input{sections/section1} 
+\input{sections/section2} 
+\input{sections/section3} 
+%\input{sections/section4} 
+\setlength{\parskip}{5pt}
+\setlength\parindent{20pt}
+\input{sections/conclusion} 
+
+\bibliographystyle{unsrtnat}
+%\bibliographystyle{plain}
+\bibliography{references}
+\clearpage
+\pagestyle{empty}
+\setlength{\parskip}{0pt}
+\setlength\parindent{0pt}
+\input{sections/annexe} 
+\end{document}
