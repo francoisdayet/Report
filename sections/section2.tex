@@ -1,4 +1,4 @@
-\section{Theorical acoustic}\label{sec:section2}
+\section{Theoretical acoustic}\label{sec:section2}
 %------------------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------------------
@@ -32,22 +32,22 @@ With the mass continuity and the momentum continuity, the convective Helmholtz e
     \begin{equation} 
     \Delta p +\Big[(w-ku_0)^2-k^2c_0^2\Big]p=0
     \end{equation}
-With $\Delta$ the laplace operator and $c$ the speed velocity.\\
-The solutions of this equations is a sum of different functions called modes: 
+With $\Delta$ the Laplace operator and $c$ the sound speed velocity.\\
+The solution of this equations is a sum of different functions called modes: 
 \begin{equation} 
     p(x,y,z,\omega)=\sum_{l=0}^\infty p_l^+ \Psi_l(y,z)e^{-ik_{x,l}(M,\omega)x}+p_l^- \Psi_l(y,z)e^{-ik_{x,l}(-M,\omega)x}
     \label{Convective_Helmholtz_Equation}
 \end{equation}
 With $M$ the mach number $M={v}/{c}$. The $l$ modes are sorted by frequency. Each mode has an acoustic shape in the section $(y,z)$. The mode can propagate in two different directions, in the positive or the negative direction.
-The usual problem in acoustic is the significant number of modes which are not negligible. In the duct, only few modes propagate unattenuated. Indeed, over a certain cut-off frequency $Re(k_{x,l})$ is negative, these modes are attenuated very fast. This cut-off frequency depends of the geometry and the mach number. For usual duct, just one mode propagates energy, the plane wave mode.
+The usual problem in acoustic is the significant number of modes which are not negligible. In the duct, only few modes propagate unattenuated. Indeed, over a certain cut-off frequency $Re(k_{x,l})$ is negative, these modes are attenuated quickly. This cut-off frequency depends of the geometry and the mach number. For usual duct, just one mode propagates energy, the plane wave mode.
 %------------------------------------------------------------------------------------------------------------
 \subsubsection{Rectangular duct} \label{sec:RectDuct}
-To solve Eq.\eqref{Convective_Helmholtz_Equation}, the separation of variables method is used. The mode shapes are independent between the direction y and z (called $m$ modes for y direction and $n$ for z). For rigid wall boundary conditions:
+To solve Eq.\eqref{Convective_Helmholtz_Equation}, the separation of variables method is used. The mode shapes are independent between the directions y and z (called $m$ modes for y direction and $n$ for z). For rigid wall boundary conditions:
 \begin{equation} 
     \Psi_{m,n}(y,z)=\Psi_{m}(y)\Psi_{n}(z)=\cos(\frac{m\pi y}{2b})\cos(\frac{n\pi z}{2h})
 \end{equation}
 With $b$ and $h$ the width and the height.
-The axial wave number $k_{x,(m,n)}$ is solution of dispersion equation: 
+The axial wave number $k_{x,(m,n)}$ is solution of the dispersion equation: 
 \begin{equation} 
     k_{x,(m,n)}=k_0\frac{M\pm\sqrt{1-(1-M^2)\Big[(\frac{m\pi}{2ka})^2+(\frac{n\pi}{2kh})^2\Big]}}{1-M^2}
 \end{equation}
@@ -132,7 +132,7 @@ $Pr$ is the Prandtl number, $\rho$ the density, $L_p$ the perimeter and $A$ the 
 For a wall of impedance Z, the boundary condition is still in discussion. Ingard assumes the continuity of acoustic particle displacement with uniform flow \cite{Ingard}. Myers extend the model for non-uniform mean-flow \cite{Myers}:
 \begin{equation} 
     \label{eq:Myers}
-    \frac{\partial p}{\partial x}|_{wall}=\frac{ik}{Z}(1-iM\frac{\partial}{\partial z})^2 p|_{wall}
+    \frac{\partial p}{\partial z}|_{wall}=\frac{ik}{Z}(1-iM\frac{\partial}{\partial x})^2 p|_{wall}
 \end{equation}
 %------------------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------------------
@@ -246,7 +246,7 @@ The older way to measure the impedance is the impedance tube measurement. A loud
     \includegraphics[scale=0.8]{Impedance_Tube}
     \caption{Impedance tube}
 \end{figure}
-The acoustic field is composed by stationary waves. The distance between two successive nodes can be measured and gives the impedance. This measure is not accurate. A more accuracy measurement is to do a wave decomposition with the 2-microphones method. $p^+$ and $p^-$ are determine and the impedance is given by \cite{Absorption_Coefficients_and_Impedance}: 
+The acoustic field is composed by stationary waves. The distance between two successive nodes can be measured and gives the impedance. This measure is not accurate. A more accurate measurement can be obtained thanks to a wave decomposition with the 2-microphones method. $p^+$ and $p^-$ are determine and the impedance is given by \cite{Absorption_Coefficients_and_Impedance}: 
 \begin{equation}
     Z(w)=\rho cS\Bigg[\frac{p^++p^-}{p^+-p^-}\Bigg]
 \end{equation}
@@ -272,7 +272,7 @@ The mode matching method is a well-known method. The modes shapes have to be det
     \caption{Rectangular duct lined for y=-a}
 \end{figure}
 \noindent Note that the coordinates are different from \ref{sec:RectDuct} \nameref{sec:RectDuct}.\\
-The incident wave is a plan wave, the direction y and z are independent. For the z direction, the boundary conditions are hard walls, the solutions are orthogonal. Thus there is just the $n=0$ mode in the z direction. For the y direction the modes of the lined wall are not orthogonal, higher mode $m$ will appear. The problem is reduced to 2 dimensions $(x,y)$.
+The incident wave is a plan wave, the direction y and z are independent. For the z direction, the boundary conditions are hard walls, the solutions are orthogonal. Thus there is just the $n=0$ mode in the z direction. For the y direction the modes of the lined wall are not orthogonal, higher mode $m$ will appear. The problem is reduced to a 2 dimensions probelm $(x,y)$.
 The rig is decomposed in three parts:
 \begin{figure}[H] \centering
     \includegraphics[scale=0.4]{ModeMatch}
@@ -300,7 +300,7 @@ The pressures are given by:
     \end{equation}
     With: 
     \begin{equation}
-        \Psi_{2i,m}(y)=e^{ik_{y2i,m}y}-e^{-ik_{y2i,m}(y-2)}
+        \Psi_{2i,m}(y)=e^{ik_{y2i,m}y}-e^{-ik_{y2i,m}(y-2a)}
     \end{equation}
     \item for the downstream hard section:
     \begin{equation}
@@ -438,7 +438,7 @@ Cremer and Tester showed that this optimum wave number is given then the derived
 %------------------------------------------------------------------------------------------------------------
 \subsubsection{Optimization of a circular liner}
 
-The lest attenuate mode was found in an experimental setup and is the $(1,0)$. To simplify the notation $k_r=k_{r,(1,0)}$ is used. The assumption of high frequency is made \cite{Kabral_thesis}: 
+The less attenuated mode has been found in an experimental setup and is the $(1,0)$ mode. To simplify the notation $k_r=k_{r,(1,0)}$ is used. The assumption of high frequency is made \cite{Kabral_thesis}: 
 \begin{equation}
     k_x\approx\frac{k}{1\pm M_x}
 \end{equation}
@@ -456,12 +456,12 @@ The equation is solved with the Matlab function "vpsolve". The optimum impedance
 \end{equation}
 \begin{figure}[H] \centering
     \includegraphics[scale=0.7]{kx11_OptCirc}
-    \caption{Axial wave number in the complex plan for Im(Z) varying from -$\infty$ to +$\infty$\ and for Re(Z)=0.892. For Im(Z)=-0.307i the first two modes coalesce $k_{01}=k_{02}=4.4663 + 1.467i$ \cite{An_Introduction_to_Acoustics}}
+    \caption{Axial wave number in the complex plan for Im(Z) varying from -$\infty$ to +$\infty$\ and for Re(Z)=0.892. For Im(Z)=-0.307i the two modes coalesce $k_{11}=k_{12}=4.4663 + 1.467i$ \cite{An_Introduction_to_Acoustics}}
 \end{figure}
 %------------------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------------------
 \subsubsection{Optimization of an annular liner}
-The optimization of an annular liner is more difficult and is rarely done by an analytically method. On the contrary with the circular duct, the eigenvalue solutions are not simple. The second problem is that the least attenuate mode is rarely the plane wave mode. For our case, the least attenuate mode was the $(8,0)$ and was determined by an experimental work. We tried to implement the Cremer impedance to reduce this mode.
+The optimization of an annular liner is more difficult and is rarely done by an analytically method. On the contrary with the circular duct, the eigenvalue solutions are not simple. The second problem is that the leass attenuate mode is rarely the plane wave mode. For our case, the leass attenuate mode was the $(8,0)$ and was determined by an experimental work. We tried to implement the Cremer impedance to reduce this mode.
 The general solution of the pressure field for annular ducts is:
 \begin{equation}
     p_{(m,n)}=\Big[A_{mn}J_m(k_{r,(m,n)}r)+B_{mn}Y_m(k_{r,(m,n)}r)\Big]\cos (m\theta) e^{i(\omega t-k_{x,(m,n)}x)}
@@ -475,7 +475,7 @@ From the general pressure solution and the Myers boundary conditions Eq.\eqref{e
     ik\beta_0\Big[1-(\frac{k_{x,(m,n)}}{k})M\Big]^2=k_{r,(m,n)}\Bigg[\frac{A_{mn}J_m^'(k_{r,(m,n)}a)+B_{mn}Y_m^'(k_{r,(m,n)}a)}{A_{mn}J_m(k_{r,(m,n)}a)+B_{mn}Y_m(k_{r,(m,n)}a)}\Bigg]
 \end{equation}
 With $\beta$ the admittance of the inner and external wall (radius $b$ and $a$). For our application we choose to lined the external wall $\beta_1=0$ and the flow is zero $M=0$.\\
-The eigenvalue equation is following:
+The eigenvalue equation follows:
 \begin{equation}\label{CremerAnnular}
     ika\beta_0=-k_{r,(m,n)}a\Bigg(\frac{J_m^'(k_{r,(m,n)}a)Y_m^'(k_{r,(m,n)}b)-J_m^'(k_{r,(m,n)}b)Y_m^'(k_{r,(m,n)}a)}{J_m(k_{r,(m,n)}a)Y_m^'(k_{r,(m,n)}b)-J_m^'(k_{r,(m,n)}b)Y_m(k_{r,(m,n)}a)}\Bigg)
 \end{equation}

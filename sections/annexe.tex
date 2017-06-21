@@ -26,11 +26,11 @@ With:
 \subsubsection*{Hard duct}\label{sec:EigenvalueHard}
 Starting with the general form:
 \begin{equation}
-        \Psi(x,y,z)=(Ae^{ik_{y}y}+Be^{-ik_{y,l}y})(Ce^{ik_{z}z}+Dne^{-ik_{z}z})e^{-ik_{x}(M,\omega)x}
+        \Psi(x,y,z)=(Ae^{ik_{y}y}+Be^{-ik_{y,l}})(Ce^{ik_{z}z}+Dne^{-ik_{z}z})e^{-ik_{x}(M,\omega)x}
 \end{equation}
 The boundary conditions in the z direction are the hard wall conditions, the velocity is zero:  
 \begin{equation}
-    \frac{\partial\Psi}{\partial z} \Bigg|_{z=+a}=0
+    \frac{\partial\Psi}{\partial z} \Bigg|_{z=\pm a}=0
 \end{equation}
 Give the system:
 \begin{equation}\label{eq:1}
@@ -84,11 +84,11 @@ Two cases $n=2p$ or $n=2p+1$
 \begin{equation}
     C_n=D_n \ \text{for} \ n=2p \ \text{and} \ C_n=-D_n\ \text{for} \ n=2p+1 
 \end{equation}
-Two solution for the shapes modes:
+Two solution for the mode shapes:
 \begin{equation}
     \Psi_{n}(z)=2\cos(\frac{n\pi}{2a}z) \ \text{for} \ n=2p \ \text{and} \ \Psi_{n}(z)=2i\sin(\frac{n\pi}{2a}z)\ \text{for} \ n=2p+1 
 \end{equation}
-Finally for two opposite hard walls the shapes modes are: 
+Finally for two opposite hard walls the mode shapes are: 
 \begin{equation}
     \left\{
     \begin{array}{ll}
@@ -119,13 +119,13 @@ Give the system:
     \begin{array}{ll}
     Ae^{ik_ya}-Be^{-ik_ya}=0\\
         \\
-    Aik_ye^{-ik_ya}-Bik_ye^{ik_ya}=ikA(1-\frac{Mk_x}{k})[Ae^{-ik_ya}-Be^{ik_ya}]
+    Aik_ye^{-ik_ya}-Bik_ye^{ik_ya}=ikA(1-\frac{Mk_x}{k})^2[Ae^{-ik_ya}-Be^{ik_ya}]
     \end{array}
     \right.
 \end{equation}
 Using the wave dispersion equation:
 \begin{equation}
-   k_z^2+k_y^2=(k-Mk_x)^2 
+   k_x^2+k_y^2=(k-Mk_x)^2 
 \end{equation}
 Using this relation in the Myers condition:
 \begin{equation}
@@ -133,7 +133,7 @@ Using this relation in the Myers condition:
     \begin{array}{ll}
     Ae^{ik_ya}-Be^{-ik_ya}=0\\
         \\
-    Ak_ye^{-ik_ya}-Bk_ye^{ik_ya}=\frac{A}{k}(k_z^2+k_y^2)^2[Ae^{-k_ya}-Be^{k_ya}]
+    Ak_ye^{-ik_ya}-Bk_ye^{ik_ya}=\frac{A}{k}(k_x^2+k_y^2)[Ae^{-k_ya}-Be^{k_ya}]
     \end{array}
     \right.
 \end{equation}\label{eq:3}
@@ -142,7 +142,7 @@ The matrix form:
     \begin{bmatrix}
      e^{ik_ya} & -e^{-ik_ya} \\
       \\
-     k_ye^{-ik_ya}-\frac{A}{k}(k_z^2+k_y^2)^2[e^{-k_ya}] & -k_ye^{ik_ya}-\frac{A}{k}(k_z^2+k_y^2)^2[-e^{k_ya}]
+     k_ye^{-ik_ya}-\frac{A}{k}(k_x^2+k_y^2)[e^{-k_ya}] & -k_ye^{ik_ya}-\frac{A}{k}(k_x^2+k_y^2)[-e^{k_ya}]
     \end{bmatrix}
     \begin{pmatrix}
        A\\
@@ -156,18 +156,18 @@ The matrix form:
  \end{gather}
 The eigenvalue equation:
 \begin{equation}
-    -k_y(e^{i2k_ya}-e^{-i2k_ya})-(e^{2ik_ya}+e^{-2ik_ya})(\frac{A}{k}(k_z^2+k_y^2))=0
+    -k_y(e^{i2k_ya}-e^{-i2k_ya})-(e^{2ik_ya}+e^{-2ik_ya})(\frac{A}{k}(k_x^2+k_y^2))=0
 \end{equation}
 The final eigenvalue equation:
 \begin{equation} \label{eq:eigenlined}
-    k_y\tan(2k_ya) -i(\frac{A}{k}(k_z^2+k_y^2))=0
+    k_y\tan(2k_ya) -i(\frac{A}{k}(k_x^2+k_y^2))=0
 \end{equation}
 This equation has $m$ solution, called modes. Thus the wave number $k_{y,m}$ is the $m-th$ $k_r$ solution of the eigenvalue equation Eq.\eqref{eq:eigenlined}. 
 The first line of the system Eq.\eqref{eq:3} gives an other condition for the amplitudes:
 \begin{equation}
     A_me^{ik_{y,m}a}-B_me^{-ik_{y,m}a}=0 \iff  B_m=A_me^{i2k_{y,m}a}
 \end{equation}
-Finally for a lined wall opposite to a hard walls the shapes modes are: 
+Finally for a lined wall opposite to a hard walls the mode shapes are: 
 \begin{equation}
     \Psi_{m}(y)=e^{ik_{y,m}y}-e^{-ik_{y,m}(y-2a)}\ \text{with}\ k_{y,m} \ \text{solution of} \ Eq.\eqref{eq:eigenlined}
 \end{equation}
@@ -177,7 +177,7 @@ Note than the relation:
 \end{equation}
 And compute in the Myers boundary conditions gives directly the impedance:
 \begin{equation}\label{eq:Impedance}
-   Z=\frac{i(k-Mk_x)^2}{k\ k_z\tan(2ak_x)}
+   Z=\frac{i(k-Mk_x)^2}{k\ k_y\tan(2ak_y)}
 \end{equation}
 %------------------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------------------
