@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: references.bib
+Warning--can't use both author and editor fields in Noise_in_Europe
+Warning--empty publisher in Noise_in_Europe
+Warning--can't use both author and editor fields in Zhou_thesis
+Warning--empty publisher in Zhou_thesis
+Warning--can't use both author and editor fields in The_jet_engine
+Warning--empty publisher in The_jet_engine
+Warning--can't use both author and editor fields in Luck_thesis
+Warning--empty publisher in Luck_thesis
+Warning--can't use both author and editor fields in Pierce
+Warning--empty publisher in Pierce
+Warning--can't use both author and editor fields in Ingard
+Warning--empty publisher in Ingard
+Warning--can't use both author and editor fields in Myers
+Warning--empty publisher in Myers
+Warning--can't use both author and editor fields in Boden_2micros
+Warning--empty publisher in Boden_2micros
+Warning--can't use both author and editor fields in Absorption_Coefficients_and_Impedance
+Warning--empty publisher in Absorption_Coefficients_and_Impedance
+Warning--can't use both author and editor fields in Boden_method
+Warning--empty publisher in Boden_method
+Warning--can't use both author and editor fields in ModematchM
+Warning--empty publisher in ModematchM
+Warning--can't use both author and editor fields in Kabral_thesis
+Warning--empty publisher in Kabral_thesis
+Warning--can't use both author and editor fields in An_Introduction_to_Acoustics
+Warning--empty publisher in An_Introduction_to_Acoustics
+You've used 13 entries,
+            2481 wiz_defined-function locations,
+            621 strings with 6026 characters,
+and the built_in function-call counts, 3630 in all, are:
+= -- 259
+> -- 123
+< -- 13
++ -- 60
+- -- 34
+* -- 234
+:= -- 568
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 13
+chr.to.int$ -- 13
+cite$ -- 39
+duplicate$ -- 247
+empty$ -- 391
+format.name$ -- 55
+if$ -- 752
+int.to.chr$ -- 1
+int.to.str$ -- 14
+missing$ -- 26
+newline$ -- 73
+num.names$ -- 39
+pop$ -- 156
+preamble$ -- 1
+purify$ -- 13
+quote$ -- 0
+skip$ -- 135
+stack$ -- 0
+substring$ -- 26
+swap$ -- 39
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 26
+while$ -- 26
+width$ -- 0
+write$ -- 150
+(There were 26 warnings)
