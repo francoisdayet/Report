@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.20)  21 JUN 2017 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.20)  6 JUL 2017 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,7 +1345,7 @@ Package epstopdf Info: Source file: <pictures/modeR00.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 10364 bytes
 (epstopdf)             Output file: <pictures/modeR00-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:08
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 6665 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeR00-eps-conve
 rted-to.pdf pictures/modeR00.eps>
@@ -1363,7 +1363,7 @@ Package epstopdf Info: Source file: <pictures/modeR01.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 11722 bytes
 (epstopdf)             Output file: <pictures/modeR01-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:08
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 8169 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeR01-eps-conve
 rted-to.pdf pictures/modeR01.eps>
@@ -1381,7 +1381,7 @@ Package epstopdf Info: Source file: <pictures/modeR10.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 11638 bytes
 (epstopdf)             Output file: <pictures/modeR10-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:08
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 6970 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeR10-eps-conve
 rted-to.pdf pictures/modeR10.eps>
@@ -1399,7 +1399,7 @@ Package epstopdf Info: Source file: <pictures/modeR11.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 44614 bytes
 (epstopdf)             Output file: <pictures/modeR11-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:09
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 28546 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeR11-eps-conve
 rted-to.pdf pictures/modeR11.eps>
@@ -1420,7 +1420,7 @@ Package epstopdf Info: Source file: <pictures/modeC00.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 15378 bytes
 (epstopdf)             Output file: <pictures/modeC00-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:09
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 10305 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeC00-eps-conve
 rted-to.pdf pictures/modeC00.eps>
@@ -1438,7 +1438,7 @@ Package epstopdf Info: Source file: <pictures/modeC01.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 48672 bytes
 (epstopdf)             Output file: <pictures/modeC01-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:09
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 32348 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeC01-eps-conve
 rted-to.pdf pictures/modeC01.eps>
@@ -1456,7 +1456,7 @@ Package epstopdf Info: Source file: <pictures/modeC10.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 48312 bytes
 (epstopdf)             Output file: <pictures/modeC10-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:09
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 32335 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeC10-eps-conve
 rted-to.pdf pictures/modeC10.eps>
@@ -1474,7 +1474,7 @@ Package epstopdf Info: Source file: <pictures/modeC11.eps>
 (epstopdf)                    date: 2017-06-21 09:41:40
 (epstopdf)                    size: 80131 bytes
 (epstopdf)             Output file: <pictures/modeC11-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:10
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 48401 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/modeC11-eps-conve
 rted-to.pdf pictures/modeC11.eps>
@@ -1534,7 +1534,7 @@ Package epstopdf Info: Source file: <pictures/kx01_05.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 237263 bytes
 (epstopdf)             Output file: <pictures/kx01_05-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:11
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 141600 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/kx01_05-eps-conve
 rted-to.pdf pictures/kx01_05.eps>
@@ -1557,7 +1557,7 @@ Package epstopdf Info: Source file: <pictures/kx01_10.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 237826 bytes
 (epstopdf)             Output file: <pictures/kx01_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:11
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 143256 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/kx01_10-eps-conve
 rted-to.pdf pictures/kx01_10.eps>
@@ -1579,7 +1579,7 @@ Package epstopdf Info: Source file: <pictures/kx01_15.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 237811 bytes
 (epstopdf)             Output file: <pictures/kx01_15-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:12
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 142785 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/kx01_15-eps-conve
 rted-to.pdf pictures/kx01_15.eps>
@@ -1601,7 +1601,7 @@ Package epstopdf Info: Source file: <pictures/kx01_20.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 237845 bytes
 (epstopdf)             Output file: <pictures/kx01_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:13
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 141919 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/kx01_20-eps-conve
 rted-to.pdf pictures/kx01_20.eps>
@@ -1623,7 +1623,7 @@ Package epstopdf Info: Source file: <pictures/kx01_Opt.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 238296 bytes
 (epstopdf)             Output file: <pictures/kx01_Opt-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:13
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 143609 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/kx01_Opt-eps-conv
 erted-to.pdf pictures/kx01_Opt.eps>
@@ -1646,7 +1646,7 @@ Package epstopdf Info: Source file: <pictures/kx11_OptCirc.eps>
 (epstopdf)                    size: 445239 bytes
 (epstopdf)             Output file: <pictures/kx11_OptCirc-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-06-21 13:32:14
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 158567 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/kx11_OptCirc-eps-
 converted-to.pdf pictures/kx11_OptCirc.eps>
@@ -1737,7 +1737,7 @@ Package epstopdf Info: Source file: <pictures/PTimeNoLiner.eps>
 (epstopdf)                    size: 19242 bytes
 (epstopdf)             Output file: <pictures/PTimeNoLiner-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-06-21 13:32:14
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 8008 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/PTimeNoLiner-eps-
 converted-to.pdf pictures/PTimeNoLiner.eps>
@@ -1756,7 +1756,7 @@ Package epstopdf Info: Source file: <pictures/PHilbertNoLiner.eps>
 (epstopdf)                    size: 18199 bytes
 (epstopdf)             Output file: <pictures/PHilbertNoLiner-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2017-06-21 13:32:15
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 7434 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/PHilbertNoLiner-e
 ps-converted-to.pdf pictures/PHilbertNoLiner.eps>
@@ -1775,7 +1775,7 @@ Package epstopdf Info: Source file: <pictures/PHilbertFiltreNoLiner.eps>
 (epstopdf)                    size: 18229 bytes
 (epstopdf)             Output file: <pictures/PHilbertFiltreNoLiner-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:15
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 7294 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/PHilbertFiltreNoL
 iner-eps-converted-to.pdf pictures/PHilbertFiltreNoLiner.eps>
@@ -1796,7 +1796,7 @@ Package epstopdf Info: Source file: <pictures/ScatNoLin.eps>
 (epstopdf)                    date: 2017-06-21 09:41:42
 (epstopdf)                    size: 22523 bytes
 (epstopdf)             Output file: <pictures/ScatNoLin-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:15
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 5685 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ScatNoLin-eps-con
 verted-to.pdf pictures/ScatNoLin.eps>
@@ -1814,7 +1814,7 @@ Package epstopdf Info: Source file: <pictures/TNoLinAll.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 17417 bytes
 (epstopdf)             Output file: <pictures/TNoLinAll-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:16
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 8079 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/TNoLinAll-eps-con
 verted-to.pdf pictures/TNoLinAll.eps>
@@ -1835,7 +1835,7 @@ Package epstopdf Info: Source file: <pictures/ScatLinNoFlow.eps>
 (epstopdf)                    size: 22548 bytes
 (epstopdf)             Output file: <pictures/ScatLinNoFlow-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-06-21 13:32:16
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 5717 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ScatLinNoFlow-eps
 -converted-to.pdf pictures/ScatLinNoFlow.eps>
@@ -1855,7 +1855,7 @@ Package epstopdf Info: Source file: <pictures/TLinM016.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 14813 bytes
 (epstopdf)             Output file: <pictures/TLinM016-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:16
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 6911 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/TLinM016-eps-conv
 erted-to.pdf pictures/TLinM016.eps>
@@ -1874,7 +1874,7 @@ Package epstopdf Info: Source file: <pictures/T21Lin1.eps>
 (epstopdf)                    date: 2017-06-21 09:41:44
 (epstopdf)                    size: 16512 bytes
 (epstopdf)             Output file: <pictures/T21Lin1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:17
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 7093 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/T21Lin1-eps-conve
 rted-to.pdf pictures/T21Lin1.eps>
@@ -1892,7 +1892,7 @@ Package epstopdf Info: Source file: <pictures/T12Lin1.eps>
 (epstopdf)                    date: 2017-06-21 09:41:42
 (epstopdf)                    size: 16516 bytes
 (epstopdf)             Output file: <pictures/T12Lin1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:17
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 7088 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/T12Lin1-eps-conve
 rted-to.pdf pictures/T12Lin1.eps>
@@ -1910,7 +1910,7 @@ Package epstopdf Info: Source file: <pictures/T12M016.eps>
 (epstopdf)                    date: 2017-06-21 09:41:42
 (epstopdf)                    size: 17835 bytes
 (epstopdf)             Output file: <pictures/T12M016-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:17
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 7078 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/T12M016-eps-conve
 rted-to.pdf pictures/T12M016.eps>
@@ -1964,7 +1964,7 @@ Package epstopdf Info: Source file: <pictures/MachModels.eps>
 (epstopdf)                    date: 2017-06-21 09:41:42
 (epstopdf)                    size: 19585 bytes
 (epstopdf)             Output file: <pictures/MachModels-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-21 13:32:18
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 8236 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MachModels-eps-co
 nverted-to.pdf pictures/MachModels.eps>
@@ -1994,7 +1994,7 @@ Package epstopdf Info: Source file: <pictures/LinearRegretion.eps>
 (epstopdf)                    size: 17458 bytes
 (epstopdf)             Output file: <pictures/LinearRegretion-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2017-06-21 13:32:18
+(epstopdf)                    date: 2017-06-21 14:21:59
 (epstopdf)                    size: 7005 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/LinearRegretion-e
 ps-converted-to.pdf pictures/LinearRegretion.eps>
@@ -2051,7 +2051,7 @@ msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (36 pages, 17022012 bytes).
+Output written on main.pdf (36 pages, 17021986 bytes).
 PDF statistics:
  891 PDF objects out of 1000 (max. 8388607)
  629 compressed objects within 7 object streams

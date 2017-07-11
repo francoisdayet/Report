@@ -104,14 +104,14 @@ Note that only the modes below the cut-off frequency propagate. The higher mode 
 \subsubsection*{Lined walls}\label{sec:EigenvalueLined}
 Starting with the general form:
 \begin{equation}
-        \Psi(x,y,z)=(Ae^{ik_{y}y}+Be^{-ik_{y,l}y})(Ce^{ik_{z}z}+Dne^{-ik_{z}z})e^{-ik_{x}(M,\omega)x}
+        \Psi(x,y,z)=(Ae^{ik_{y}y}+Be^{-ik_{y}y})(Ce^{ik_{z}z}+Dne^{-ik_{z}z})e^{-ik_{x}x}
 \end{equation}
 The boundary conditions in the y direction one lined wall and a hard wall, the velocity is respectively 0 and given by the Myers condition:
 \begin{equation}
     \frac{\partial\Psi}{\partial y} \Big|_{y=+a}=0
 \end{equation}
 \begin{equation}
-    \frac{\partial p}{\partial y}\Bigg|_{y=-a}=\frac{ik}{Z}(1-iM\frac{\partial}{\partial x})^2 p\Bigg|_{y=-a}
+    \frac{\partial p}{\partial y}\Bigg|_{y=-a}=\frac{ik}{Z}(1-i\frac{M}{k}\frac{\partial}{\partial x})^2 p\Bigg|_{y=-a}
 \end{equation}
 Give the system:
 \begin{equation}\label{eq:2}
@@ -119,7 +119,7 @@ Give the system:
     \begin{array}{ll}
     Ae^{ik_ya}-Be^{-ik_ya}=0\\
         \\
-    Aik_ye^{-ik_ya}-Bik_ye^{ik_ya}=ikA(1-\frac{Mk_x}{k})^2[Ae^{-ik_ya}-Be^{ik_ya}]
+    Aik_ye^{-ik_ya}-Bik_ye^{ik_ya}=ikA(1-\frac{Mk_x}{k})^2[Ae^{-ik_ya}+Be^{ik_ya}]
     \end{array}
     \right.
 \end{equation}
@@ -133,7 +133,7 @@ Using this relation in the Myers condition:
     \begin{array}{ll}
     Ae^{ik_ya}-Be^{-ik_ya}=0\\
         \\
-    Ak_ye^{-ik_ya}-Bk_ye^{ik_ya}=\frac{A}{k}(k_x^2+k_y^2)[Ae^{-k_ya}-Be^{k_ya}]
+    Ak_ye^{-ik_ya}-Bk_ye^{ik_ya}=\frac{A}{k}(k_x^2+k_y^2)[Ae^{-ik_ya}+Be^{ik_ya}]
     \end{array}
     \right.
 \end{equation}\label{eq:3}
@@ -142,7 +142,7 @@ The matrix form:
     \begin{bmatrix}
      e^{ik_ya} & -e^{-ik_ya} \\
       \\
-     k_ye^{-ik_ya}-\frac{A}{k}(k_x^2+k_y^2)[e^{-k_ya}] & -k_ye^{ik_ya}-\frac{A}{k}(k_x^2+k_y^2)[-e^{k_ya}]
+     k_ye^{-ik_ya}-\frac{A}{k}(k_x^2+k_y^2)[e^{-ik_ya}] & -k_ye^{ik_ya}-\frac{A}{k}(k_x^2+k_y^2)[e^{ik_ya}]
     \end{bmatrix}
     \begin{pmatrix}
        A\\
